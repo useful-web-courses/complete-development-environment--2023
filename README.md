@@ -39,6 +39,7 @@ Examples:
 - section--employees
 - section--reviews
 
+---
 
 ### container--*
 Holds:
