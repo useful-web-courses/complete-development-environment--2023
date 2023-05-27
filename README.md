@@ -96,13 +96,19 @@ Examples:
         --border--width: 2px;
 
         --color--accent: #ed6941;
+        --color--on-accent: #f9f9f9;
+    
         --color--background: #121212;
-        --color--faint: rgba(255, 255, 255, 0.5);
-        --color--surface: #080808;
-        --color--text-primary: #ffffff;
-        --color--text-secondary: rgba(255, 255, 255, 0.65);
+        --color--on-background: #121212;
+        --color--on-background-faint: rgba(255, 255, 255, 0.5);
+    
         --color--link: #7c98f9;
-
+        --color--on-link: #f9f9f9;
+    
+        --color--surface: #080808;
+        --color--on-surface: #121212;
+        --color--on-surface-faint: #121212;
+    
         --font--family: "Arial";
 
         --font--size--small: 1rem;
