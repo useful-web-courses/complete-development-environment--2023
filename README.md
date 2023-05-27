@@ -2,16 +2,19 @@
 
 ## HTML classname conventions
 
+
 ### section--*
 Holds:
 - Containers
 - Components
 - Parts
+- Elements
 
 Examples:
 - section--projects
 - section--employees
 - section--reviews
+
 
 ### container--*
 Holds:
@@ -24,18 +27,33 @@ Examples:
 - container--employees
 - container--reviews
 
+
 ### component--*
-Contains at least one part and is always within a segment, examples:
+Holds:
+- Parts
+- Elements
+
+Examples:
 - component--project
 - component--employee
 - component--review
 
+
 ### part--*
-Smallest chunk just above pure tags, examples:
+Holds:
+- Elements
+
+Examples:
 - part--name-and-technology
 - part--name-and-position
 - part--name-and-rating
 
+
+### elements
+Examples:
+- h1, h2, h3, h4, h5, h6
+- p, a, span
+- img, video
 
 
 ### order of css attributes
