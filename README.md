@@ -27,6 +27,8 @@
 </div>
 ```
 
+---
+
 ### section--*
 Holds:
 - Containers
@@ -52,6 +54,7 @@ Examples:
 - container--employees
 - container--reviews
 
+---
 
 ### component--*
 Holds:
@@ -63,6 +66,7 @@ Examples:
 - component--employee
 - component--review
 
+---
 
 ### part--*
 Holds:
@@ -73,6 +77,7 @@ Examples:
 - part--name-and-position
 - part--name-and-rating
 
+---
 
 ### elements
 Examples:
@@ -80,8 +85,50 @@ Examples:
 - p, a, span
 - img, video
 
+---
 
-### order of css attributes
+### Order of css attributes
+
+```HTML
+<style>
+    html {
+        --border--radius: 8px;
+        --border--width: 2px;
+
+        --color--accent: #ed6941;
+        --color--background: #121212;
+        --color--faint: rgba(255, 255, 255, 0.5);
+        --color--surface: #080808;
+        --color--text-primary: #ffffff;
+        --color--text-secondary: rgba(255, 255, 255, 0.65);
+        --color--link: #7c98f9;
+
+        --font--family: "Arial";
+
+        --font--size--small: 1rem;
+        --font--size--medium: 1.8rem;
+        --font--size--large: 2.4rem;
+
+        --font--weight--thin: 300;
+        --font--weight--regular: 500;
+        --font--weight--bold: 800;
+
+        --space--tiny: 8px;
+        --space--small: 16px;
+        --space--medium: 32px;
+        --space--large: 64px;
+    }
+
+    html[data-theme="light"] {
+        --color--background: #f9f9f9;
+        --color--faint: rgba(0, 0, 0, 0.5);
+        --color--surface: #e7e7e7;
+        --color--text-primary: #000000;
+        --color--text-secondary: rgba(0, 0, 0, 0.65);
+        --color--link: #385cdd;
+    }
+</style>
+```
 
 ## logical sizing
 thin, thicker, thickest
