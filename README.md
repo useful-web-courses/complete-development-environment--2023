@@ -2,6 +2,29 @@
 
 ## HTML classname conventions
 
+### Example
+<div class="section--projects">
+    <h1>Projects</h1>
+    
+    <div class="container--projects">
+        <div class="component--project-card">
+            <img src="/media/images/projects/1.jpg" alt=""/>
+            
+            <div class="part--project-info">
+                <h1>Project 1</h1>
+            </div>
+        </div>
+        
+        <div class="component--project-card">
+            <img src="/media/images/projects/1.jpg" alt=""/>
+            
+            <div class="part--project-info">
+                <h1>Project 2</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 ### section--*
 Holds:
