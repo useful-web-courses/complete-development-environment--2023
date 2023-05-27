@@ -3,6 +3,7 @@
 ## HTML classname conventions
 
 ### Example
+```HTML
 <div class="section--projects">
     <h1>Projects</h1>
     
@@ -24,7 +25,7 @@
         </div>
     </div>
 </div>
-
+```
 
 ### section--*
 Holds:
